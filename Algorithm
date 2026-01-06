@@ -1,4 +1,4 @@
-threshold = 50
+threshold = 30
 
 for each student in class:
     avg = calculateAverage(student.marks)
@@ -7,3 +7,6 @@ for each student in class:
         print("Weak student:", student.name)
     else:
         print("Satisfactory performance:", student.name)
+
+calculateAverage(int marks):
+       return avg = marks/100*100
